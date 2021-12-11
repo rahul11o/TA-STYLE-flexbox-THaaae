@@ -1,8 +1,88 @@
-<!-- 
-- Create a page using flexbox according to the layout shown below.
-
-![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-2.png)
-
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper. 
--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/56056e4dbf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class=" hero-header">
+        <div class="flex container">
+             <a href="#" class="logo">
+                 <img src="assets/icons/altcampus-logo-02.jpeg">
+             </a>
+             <div class="bell-user-icon flex"> 
+                 <span class="bell-icon "> 
+                     <a href="#">
+                         <img src="assets/icons/bell.svg" alt="bell">
+                     </a>
+                 </span>
+                 <span class="user-icon">
+                     <a href="#" class="flex">
+                         <span> Sarah Jone</span>
+                         <img src="assets/icons/user.svg" alt="users-icon">
+                     </a>
+                 </span>
+             </div>
+        </div>     
+    </header>
+    <main>
+        
+        <div class="flex container">
+            <aside class="aside">
+                <div class="dashboard">
+                     <a href="#" class="flex">
+                         <img src="assets/icons/dashboard.svg" alt="Dashboard"><strong>Dashboard</strong>
+                     </a>
+                </div>
+                <div class="artical-icon">
+                     <a href="#" class="flex">
+                         <img src="assets/icons/article.svg" alt="article"><span>Articles</span>
+                     </a>
+                </div>
+                <div>
+                     <a href="#" class="flex">
+                         <img src="assets/icons/analytics.svg" alt="Analytics"><span>Analytics</span>
+                     </a>
+                </div>
+                <div>
+                     <a href="#" class="flex">
+                         <img src="assets/icons/inbox.svg" alt="inbox"><span>Inbox</span>
+                     </a>
+                </div>
+                <div>
+                     <a href="#" class="flex">
+                         <img src="assets/icons/setting.svg" alt="Settings"><span>Settings</span>
+                     </a>
+                </div>
+                <div class="log-out"> 
+                    <a href="#" class="flex">
+                        <img src="assets/icons/log-out.svg" alt="Log out"><span>Log Out</span>
+                    </a>
+               </div>
+            </aside> 
+            <section class="article-section">
+                <article class=" article">
+                    <img src="assets/01.png" alt="random picture">
+                    <h1>Why we are doing Altcampus?</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi illo sit officia corrupti consectetur aliquid eum nesciunt voluptatibus ipsa soluta, et adipisci aliquam nostrum. Nihil laboriosam nisi culpa ipsum iste quam labore corrupti quaerat corporis consequatur suscipit doloremque dolore sequi iusto veniam, eligendi quod libero temporibus ut aliquam sunt! Perspiciatis.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non similique, placeat nemo perspiciatis blanditiis consectetur laboriosam eveniet sequi odit exercitationem.</p>
+                    <a href="#" class="flex">Read More</a>
+                </article>
+            </section>    
+         </div>
+    </main>
+    <footer class="footer">
+        <div class="flex container">
+        <small>&copy;Altcampus</small>
+        <nav>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+        </nav>
+        </div>
+    </footer>
+</body>
+</html>
