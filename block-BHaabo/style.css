@@ -1,0 +1,190 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Custombstyles */
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+/* general */
+.container{
+    max-width: 1200px;
+    margin: 0px auto;
+    
+    
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+/* header */
+
+header{
+    background-color: #22396a;
+    margin-bottom: 50px;
+}
+
+.logo img{
+    height: 90px;
+    width: 175px;
+    object-fit: cover;
+}
+.bell-icon img{
+    margin-right: 60px;
+    height: 40px;
+   width: 40px;
+    
+}
+.user-icon img{
+    margin-left: 10px;
+   height: 40px;
+   width: 40px;
+}
+.user-icon a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+/* Aside */
+.aside{
+    width: 32%;
+    height: 725px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: space-evenly;
+  background-color: rgb(183, 218, 233);
+  padding-left: 20px;
+  border-radius: 20px;
+}
+.aside a{
+    padding-left: 50px;}
+
+
+.log-out a{
+    
+    background-color: white;
+    padding: 20px 200px 20px 50px;
+    border-radius: 10px;
+    margin-top: 200px;
+}
+.dashboard a{
+    padding-left: 40px;
+
+}
+.artical-icon a{
+    padding: 17px 200px 17px 50px;
+    border: 2px rgb(223, 125, 14) solid;
+    border-radius: 10px;
+    color: rgb(223, 125, 14) ;
+}
+.aside img {
+    margin-right: 20px;
+
+}
+.aside a{
+    text-decoration:none ;
+}
+
+.article-section{
+    width: 62%;
+    height: 725px;
+    background-color: rgb(225, 238, 243);
+    border-radius: 20px;
+    padding: 20px;
+}
+.article-section img{
+    width: 100%;
+    
+}
+h1{
+    font-size: 40px;
+    margin: 30px 0px ;
+}
+p{
+    line-height: 1.5;
+    font-size: 18px;
+}
+.article a{
+    
+   font-size: 20px;
+    background-color: rgb(11, 204, 108);
+    width: 150px;
+    height: 40px;
+    padding-left : 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    color: white;
+    
+}
+/* Footer */
+
+footer{
+    background-color: #22396a;
+    margin-top: 80px;
+    padding: 50px;
+
+}
+.footer small{
+    color: white;
+    
+    font-size: 25px;}
+    
+.footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 20px;
+}
+    
